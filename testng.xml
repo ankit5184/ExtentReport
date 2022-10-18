@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="Configuration.Listeners"/>
+    </listeners>
+
+    <test name="Login into Website" parallel="tests">
+        <parameter name="browserName" value="chrome"/>
+        <!--            <parameter name="url" value="http://automationpractice.com/index.php"></parameter>-->
+        <!--            <parameter name="email" value="admin56@gmail.com"/>-->
+        <!--            <parameter name="password" value="Ankit@5623"/>-->
+        <classes>
+            <class name="Test.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Adding Product in Cart">
+        <parameter name="browserName" value="edge"/>
+        <classes>
+            <class name="Test.StorePageTest"/>
+        </classes>
+    </test>
+
+    <test name="View Product in Cart">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="Test.AddToCartPageTest"/>
+        </classes>
+    </test>
+
+    <test name="View Order History">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="Test.OrderPageTest"/>
+        </classes>
+    </test>
+</suite>
