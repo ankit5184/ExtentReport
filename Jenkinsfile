@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps{
-                xml 'testng.xml'
+                mvn 'testng.xml'
             }
         }
     }
