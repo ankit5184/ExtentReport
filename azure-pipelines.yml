@@ -28,3 +28,17 @@ steps:
   displayName: 'Publish Artifact: drop'
   inputs:
     PathtoPublish: '$(build.artifactstagingdirectory)'
+
+- task: SendEmail@1
+  inputs:
+    To: 'ankit.kumar@infostride.com'
+    CC: 'saurav.sharma@infostride.com, abhishek.rawat@infostride.com'
+    From: 'ankit.kumar@infostride.com'
+    Subject: 'pipleine'
+    Body: 'Hi, These are the reports'
+    BodyAsHtml: false
+    AddAttachment: true
+    Attachment: '$(System.DefaultWorkingDirectory)/target/Extent-Reports/index.html'
+    SmtpServer: 'smtp.office365.com'
+    SmtpUsername: 'ankit.kumar@infostride.com'
+    SmtpPassword: 'INFO7184@Ak'
