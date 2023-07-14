@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd864395-fa0e-4659-abb4-eaf5e6e69cec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/PublicLinksPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoInfostride.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logos/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maven.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumGridSetup/hub1.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumGridSetup/selenium-server-standalone-3.141.59.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumGridSetup/web-node.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumGridSetup/web-node1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/TestExceldata.xls" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/TestExceldata.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azure-pipelines.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AddToCartPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/PublicLinksPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/PageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/PageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/StorePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/AddToCartPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/LoginPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/OrderPageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/SeleniumGridBaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/StorePageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Extent.Properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DemoInfostride-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent-Reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PdfReports/Extentpdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SparkReport/Spark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/Cucumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Login into HRM Through Excel Data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Login into HRM Through Excel Data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Test.LoginHRMThroughExcelData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/Login into HRM Through Excel Data.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/ExtentLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/ExtentReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Configuration/Listeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Extent.Properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/AddToCartPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/OrderPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/PageFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/StorePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReadExcelData/ExcelDataConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ReadExcelData/ReadExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/AddToCartPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/LoginPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/OrderPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/SeleniumGridBaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/StorePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PPyPNpvoab97QxlgBYhYbdWgOK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="TestNG.E:/Project/Selenium Java/JavaFrameworkExtentReport/testng.xml">
+    <configuration name="E:/Project/Selenium Java/JavaFrameworkExtentReport/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFrameworkExtentReport" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFrameworkExtentReport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.IntegrationPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationPageTest.Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFrameworkExtentReport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.IntegrationPageTest" />
+      <option name="METHOD_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublicLinksPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFrameworkExtentReport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.PublicLinksPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublicLinksPageTest.PublicLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaFrameworkExtentReport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.PublicLinksPageTest" />
+      <option name="METHOD_NAME" value="PublicLinks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.E:/Project/Selenium Java/JavaFrameworkExtentReport/testng.xml" />
+        <item itemvalue="TestNG.PublicLinksPageTest.PublicLinks" />
+        <item itemvalue="TestNG.PublicLinksPageTest" />
+        <item itemvalue="TestNG.IntegrationPageTest" />
+        <item itemvalue="TestNG.IntegrationPageTest.Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd864395-fa0e-4659-abb4-eaf5e6e69cec" name="Changes" comment="" />
+      <created>1683372986997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683372986997</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaFrameworkExtentReport$E__Project_Selenium_Java_JavaFrameworkExtentReport_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1683377772550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

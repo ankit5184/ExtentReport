@@ -1,1 +1,0 @@
-java -Dwebdriver.chrome.driver="C:\Users\PriyaGandhi\Desktop\DemoInfostride\chromedriver.exe" -jar  C:\Users\PriyaGandhi\Desktop\DemoInfostride\SeleniumGridSetup\selenium-server-standalone-3.141.59.jar -role node -hub http://10.10.30.129:4444/grid/register/

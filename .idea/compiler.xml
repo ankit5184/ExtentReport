@@ -9,7 +9,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DemoProjectWithFramework" />
-        <module name="DemoInfostride" />
       </profile>
     </annotationProcessing>
   </component>

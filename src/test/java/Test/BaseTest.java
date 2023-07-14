@@ -8,6 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import static Configuration.Listeners.screenRecorder;
 
 public class BaseTest {
@@ -45,8 +48,24 @@ public class BaseTest {
 //        screenRecorder.stop();
     }
 
-    @DataProvider(name = "WebsiteLoginData")
+    @DataProvider(name = "IntegrationPageTestData")
     public Object[][] passData() throws IOException {
+        String excelSheetPath = System.getProperty("user.dir");
+        ExcelDataConfig config = new ExcelDataConfig(excelSheetPath + "//TestData//TestExceldata.xls");
+        int rows = config.getRowCount(0);
+        int cols = config.getCellCount(0,1);
+        String[][] data = new String[rows][cols];
+        for(int i=1;i<=rows;i++){
+            for(int j=0; j<cols; j++) {
+                data[i-1][j] = config.getData(0, i, j);
+            }
+        }
+        return data;
+    }
+
+
+    @DataProvider(name = "PublicLinkPageTestData")
+    public Object[][] passDataForPublicLinks() throws IOException {
         String excelSheetPath = System.getProperty("user.dir");
         ExcelDataConfig config = new ExcelDataConfig(excelSheetPath+"//TestData//TestExceldata.xls");
         int rows = config.getRowCount(1);
@@ -60,16 +79,16 @@ public class BaseTest {
         return data;
     }
 
-    @DataProvider(name = "AddUserData")
-    public Object[][] passDataForUers() throws IOException {
+    @DataProvider(name = "SandBoxPageTestData")
+    public Object[][] passDataForSandBox() throws IOException {
         String excelSheetPath = System.getProperty("user.dir");
         ExcelDataConfig config = new ExcelDataConfig(excelSheetPath+"//TestData//TestExceldata.xls");
-        int rows = config.getRowCount(0);
-        int cols = config.getCellCount(0,1);
+        int rows = config.getRowCount(2);
+        int cols = config.getCellCount(2,1);
         String[][] data = new String[rows][cols];
         for(int i=1;i<=rows;i++){
             for(int j=0; j<cols; j++) {
-                data[i-1][j] = config.getData(0, i, j);
+                data[i-1][j] = config.getData(2, i, j);
             }
         }
         return data;

@@ -5,40 +5,32 @@ import org.openqa.selenium.WebDriver;
 public class PageFactory {
     WebDriver driver;
 
-    private LoginPage loginPage;
-    private StorePage storePage;
-    private AddToCartPage addToCartPage;
-    private OrderPage orderPage;
+    private IntegrationsPage integrationPage;
+    private PublicLinksPage publicLinksPage;
+    private SanBoxPage sanBoxPage;
 
-    public PageFactory(WebDriver driver){
+    public PageFactory(WebDriver driver) {
         this.driver = driver;
     }
 
-    public LoginPage getLoginPage(){
-        if(loginPage == null){
-            loginPage = new LoginPage(driver);
+    public IntegrationsPage getIntegrationPage(){
+        if(integrationPage == null){
+            integrationPage = new IntegrationsPage(driver);
         }
-        return loginPage;
+        return integrationPage;
     }
 
-    public StorePage getStorePage(){
-        if(storePage == null){
-            storePage = new StorePage(driver);
+    public PublicLinksPage getPublicLinksPage() {
+        if (publicLinksPage == null) {
+            publicLinksPage = new PublicLinksPage(driver);
         }
-        return storePage;
+        return publicLinksPage;
     }
 
-    public AddToCartPage getAddToCartPage(){
-        if(addToCartPage == null){
-            addToCartPage = new AddToCartPage(driver);
+    public SanBoxPage getSanBoxPage() {
+        if (sanBoxPage == null) {
+            sanBoxPage = new SanBoxPage(driver);
         }
-        return addToCartPage;
-    }
-
-    public OrderPage getOrderPage(){
-        if(orderPage == null){
-            orderPage = new OrderPage(driver);
-        }
-        return orderPage;
+        return sanBoxPage;
     }
 }

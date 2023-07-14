@@ -5,34 +5,24 @@
         <listener class-name="Configuration.Listeners"/>
     </listeners>
 
-    <test name="Login into Website" parallel="tests">
+    <test name="Public Links Page">
         <parameter name="browserName" value="chrome"/>
-        <!--            <parameter name="url" value="http://automationpractice.com/index.php"></parameter>-->
-        <!--            <parameter name="email" value="admin56@gmail.com"/>-->
-        <!--            <parameter name="password" value="Ankit@5623"/>-->
         <classes>
-            <class name="Test.LoginPageTest"/>
+            <class name="Test.PublicLinksPageTest"/>
         </classes>
     </test>
 
-    <test name="Adding Product in Cart">
-        <parameter name="browserName" value="edge"/>
+    <test name="Sand Box Page">
+        <parameter name="browserName" value="chrome"/>
         <classes>
-            <class name="Test.StorePageTest"/>
+            <class name="Test.SanBoxPageTest"/>
         </classes>
     </test>
 
-    <test name="View Product in Cart">
+    <test name="Integrations Page">
         <parameter name="browserName" value="chrome"/>
         <classes>
-            <class name="Test.AddToCartPageTest"/>
-        </classes>
-    </test>
-
-    <test name="View Order History">
-        <parameter name="browserName" value="chrome"/>
-        <classes>
-            <class name="Test.OrderPageTest"/>
+            <class name="Test.IntegrationsPageTest"/>
         </classes>
     </test>
 </suite>
